@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chorale – Contact</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="config.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <img src="assets/banniere.jpg" alt="Bannière chorale" class="banner-full">
+    <nav class="main-nav">
+      <a href="index.html">Accueil</a>
+      <a href="repetitions.html">Répétitions</a>
+      <a href="trombinoscope.html">Trombinoscope</a>
+      <a href="activites.html">Une belle histoire</a>
+      <a href="evenements.html">Évènements</a>
+      <a href="contact.html"class="active">Contact</a>
+    </nav>
+  </header>
+
+  <main class="content">
+    <section class="contact">
+      <h2 class="title-up" style="text-align: center";>Nous contacter</h2>
+      <p>
+        Pour toute question, demande d’information ou proposition de concert,
+        vous pouvez nous téléphoner (06 13 03 73 60 ou 06 86 48 15 22) ou nous écrire via ce formulaire.
+      </p>
+
+        <form class="contact-form" action="https://formspree.io/f/xwlejnqa" method="POST">
+        <label>
+          Prénom et nom :
+          <input type="text" name="nom" required>
+        </label>
+
+        <label>
+          Votre email :
+          <input type="email" name="email" required>
+        </label>
+
+        <label>
+          Message :
+          <textarea name="message" rows="5" required></textarea>
+        </label>
+
+        <!-- Sujet du mail reçu -->
+        <input type="hidden" name="_subject" value="Contact via le site LCDC">
+
+        <button type="submit">Envoyer</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; Le Chant D'à Côté – Tous droits réservés</p>
+  </footer>
+</body>
+</html>
