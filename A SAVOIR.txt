@@ -1,0 +1,33 @@
+      QUELQUES INFOS ET ASPECTS TECHNIQUES
+      ------------------------------------
+
+
+1- Mails générés sur la page CONTACT :
+  Ils sont envoyés à lechantdacote33560@gmail.com via un compte FORMSPREE 
+     On s'y connecte via https://formspree.io/login
+     Identifiant : le mail
+     Mot de passe : le même que celui du compte gmail
+ 
+     Un point de terminaison de formulaire est généré par FORMSPREE: https://formspree.io/f/xwlejnqa
+     C'est ce point qui est ensuite utilisé par le site LCDC pour effectuer l'envoi vers le mail LCDC.
+     Cette insctruction se trouve dans le fichier contact.html :
+            <form class="contact-form" action="https://formspree.io/f/xwlejnqa" method="POST">)
+
+2- Hébergement du site sur GitHub : 
+     On s'y connecte via https://github.com
+     Identifiant : le mail
+     Mot de passe : le même que celui du compte gmail
+     Nom d'utilisateur : LeChantdaCote
+     
+     Création d'un répertoire (appelé repository): Site internet LCDC 33
+     Il contient le codage du site 
+
+3- Règles de base :
+     Les répertoires sont formés uniquement de caractères alphabétiques sans accent ni cédille ni majuscule, en un seul mot
+     Les noms de fichier sont formés uniquement de caractères alphabétiques sans accent ni cédille ni majuscule, le séparateur de mots est '_'
+
+4- Fichier de preuve de propriété du site :
+     Le fichier google3834dbe8f38ddd90 est généré par Google lorsque le site y a été ajouté.
+     Ce fichier est la preuve que nous sommes propriétaires du site
+     Il doit systématiquement est stocké au même niveau que les autres fichiers html du site
+ 
